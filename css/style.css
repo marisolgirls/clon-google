@@ -1,0 +1,181 @@
+* {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.icon-buscador {
+    width: 20px;
+    /* inline block para que las propiedades de width sigan haciendo ejemplo
+    y para que los elementos se alinien en una fila */
+    display: inline-block;
+    width: 24px;
+
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    display: inline;
+    /* padding: 8px; */
+    margin-right: 18px;
+
+}
+
+footer ul {
+    display: inline-block;
+    margin: auto 12px;
+
+}   
+
+footer ul li {
+    display: inline;
+    padding: 15px;
+
+}
+
+.caja-buscador {
+    /* background-color: pink; */
+    text-align: center;
+    width: 100%;
+}
+
+.contenedor-buscador {
+    /* background-color: blue; */
+    width: 37%;
+    text-align: center;
+    height: 45px;
+    border: 1px solid #DFE1E5;
+    border-radius: 50px;
+}
+
+#minime {
+    border-radius: 50%;
+    width: 34px;
+}
+
+.gb_i {
+    width: 24px;
+}
+
+.font-nav {
+    font-size: 13px;
+}
+
+nav {
+    /* background-color: aqua; */
+    text-align: right;
+    padding: 8px;
+
+}
+
+header {
+    /* background-color:  red; */
+}
+
+.centrado-vertical {
+    display: flex;
+    align-items: center;
+    text-align: right;
+    justify-content: flex-end;
+
+}
+
+.caja-buscador {
+    display: flex;
+    justify-content: center;
+}
+
+.icon-buscador {
+    text-align: left;
+}
+
+.micro {
+    margin-right: 25px;
+}
+
+.lupa {
+    margin-left: 15px;
+}
+.camara {
+    margin-right: 15px;
+}
+
+input {
+    width: 80%;
+    height: 15px;
+    margin-left: 15px;
+    /* margin-right: -20px; */
+    border: 0;
+    outline: none;
+    background-color: transparent;
+    font-size: 16px;
+}
+
+.contenedor-buscador {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.google-seccion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 136px;
+    padding-bottom: 25px;
+}
+
+.google-img {
+    width: 272px;
+    height: 92px;
+}
+
+.contenedor-blanco {
+    height: 250px;
+}
+
+.contenedor-botones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.buscar-btn, .voy-btn {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    padding: 0 16px;
+    height: 36px;
+    margin: 11px 4px;
+    font-size: 14px;
+    color: #3c4043;
+    cursor: pointer;
+}
+
+.texto-gris {
+    color: #70757a;
+    font-size: 15px;
+    padding: 15px 30px;
+}
+
+
+.texto-gris-peque {
+    font-size: 14px;
+}
+
+.seccion-mexico {
+    border-bottom: 1px solid #dadce0;
+    background-color: #f2f2f2;
+}
+
+.seccion-sobre {
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+
+}
